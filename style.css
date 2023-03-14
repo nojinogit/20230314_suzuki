@@ -1,0 +1,43 @@
+.header {
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-item {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+
+main {
+    max-width: 1500px;
+    height: 500px;
+    position: relative;
+}
+
+.eyecatch-img-container {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.eyecatch-img {
+    width: 100%;
+}
+
+.catch-copy {
+    font-size: 4rem;
+    position: absolute;
+    top: 60%;
+}
+
+.bg-blue {
+    width: 75%;
+    height: 50%;
+    background: blue;
+    position: absolute;
+    top: 90%;
+    z-index: -1;
+}
