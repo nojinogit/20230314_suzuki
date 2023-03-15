@@ -1,7 +1,23 @@
 .header {
     max-width: 1500px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-ttl{
+    font-size: 30px;
+    margin: 25px;
+}
+
+.header-nav{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .header-nav-item {
@@ -32,7 +48,7 @@ main {
 .catch-copy {
     font-size: 4rem;
     position: absolute;
-    bottom:15%;
+    bottom:30%;
 }
 
 .bg-blue {
