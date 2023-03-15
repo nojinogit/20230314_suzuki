@@ -27,10 +27,16 @@ main {
     width: 100%;
 }
 
+.eyecatch{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .catch-copy {
     font-size: 4rem;
     position: absolute;
-    top: 60%;
+    bottom:500px;
 }
 
 .bg-blue {
@@ -38,6 +44,6 @@ main {
     height: 50%;
     background: blue;
     position: absolute;
-    top: 90%;
+    bottom: 320px;
     z-index: -1;
 }
